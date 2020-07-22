@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACTNow Info Retrieve Demo</title>
+
+    <script src="./script.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+
+    <div class="wrap">
+        <img class="logo" src="./actnow-logotype-1.svg">
+        
+        <div id="content">
+            <label><h3>Please enter your order number</h3></label>
+            <p>Try empty, "111111" and "222222" for different results</p>
+            <input id="orderID" type="text">
+            <button class="submit" onclick="orderSubmit()">Submit</button>
+            <p><a href="#" onclick="getOrderID()">I don't have an order ID</a></p>
+        </div>
+    </div>
+    
+</body>
+</html>
