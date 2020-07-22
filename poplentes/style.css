@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+
+html, body{
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 750px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.wrapper .logo{
+    display: block;
+    margin: auto;
+}
+
+.wrapper > label{
+    margin-top: 45px;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.row{
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.selecciones{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    margin-top: 50px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #f25297;
+}
+
+.icon-wrap{
+    background-color: white;
+    margin: auto;
+    margin-top: -65px;
+    padding: 10px;
+    border: 1px solid #f25297;
+    border-radius: 100%;
+}
+
+.icon{
+    margin: auto;
+    padding: 10px;
+    border: 1px solid #f25297;
+    border-radius: 100%;
+    font-size: 30px;
+    color: #f25297;
+}
+
+.icon h1{
+    font-size: xxx-large;
+    font-weight: bold;
+    border-radius: 100%;
+    line-height: 1px;
+    padding: 0 20px;
+}
+
+label{
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-size: x-large;
+}
+
+select{
+    font-size: large;
+    padding: 5px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
